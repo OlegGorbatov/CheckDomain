@@ -77,12 +77,12 @@
     <form class="inpForm" action="index.php" method="post" >
         <h3>Решение:</h3>
         <div class="form-group" >
-            <label for="mainDomainInput">Введите основной домен, проверка на вхождение в который будет осуществлена:</label>
+            <label for="mainDomainInput">http://olgor.beget.tech/ в который будет осуществлена:</label>
             <input name="mainDomain" type="text" class="form-control" id="mainDomainInput" placeholder="Введите имя основного домена">
             <small id="emailHelp" class="form-text text-muted">Всегда передаётся валидное доменное имя</small>
         </div>
         <div class="form-group">
-            <label for="subDomainInput">Password</label>
+            <label for="subDomainInput">Введите домен для проверки на вхождение в основной:</label>
             <input name="subDomain" type="text" class="form-control" id="subDomainInput" placeholder="Введите имя проверяемого домена">
             <small id="emailHelp" class="form-text text-muted">Всегда передаются валидные доменные имена относительно корневого
                 домена</small>
