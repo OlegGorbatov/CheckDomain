@@ -77,7 +77,7 @@
     <form class="inpForm" action="index.php" method="post" >
         <h3>Решение:</h3>
         <div class="form-group" >
-            <label for="mainDomainInput">http://olgor.beget.tech/ в который будет осуществлена:</label>
+            <label for="mainDomainInput">Введите основной домен, проверка на вхождение в который будет осуществлена:</label>
             <input name="mainDomain" type="text" class="form-control" id="mainDomainInput" placeholder="Введите имя основного домена">
             <small id="emailHelp" class="form-text text-muted">Всегда передаётся валидное доменное имя</small>
         </div>
